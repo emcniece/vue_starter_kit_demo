@@ -5,6 +5,7 @@ import Grid from "@/components/Grid";
 import CarouselComponent from "@/components/Carousel";
 import StyledComponents from "@/components/StyledComponents";
 import Icon from "@/components/Icon";
+import MapComponent from "@/components/MapComponent";
 
 Vue.use(Router);
 
@@ -35,6 +36,11 @@ export default new Router({
       path: "/icon",
       name: "Icon",
       component: Icon
+    },
+    {
+      path: "/map",
+      name: "Map",
+      component: MapComponent
     }
   ]
 });
