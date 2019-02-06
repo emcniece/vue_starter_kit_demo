@@ -6,6 +6,9 @@
       <li>
         <router-link to="/grid">Grid</router-link>
       </li>
+      <li>
+        <router-link to="/carousel">Carousel</router-link>
+      </li>
     </ul>
   </div>
 </template>
