@@ -17,6 +17,9 @@
       <li>
         <router-link to="/icon">Icons</router-link>
       </li>
+      <li>
+        <router-link to="/map">Maps</router-link>
+      </li>
     </ul>
   </div>
 </template>

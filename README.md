@@ -36,3 +36,10 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 - [The Granger Taxonomy](https://medium.com/bootstart/the-granger-component-taxonomy-24c795fa02fb)
+
+# Notes & Insights
+
+- The HugeInc grid was hard to install and get working. Opted for Bootstrap instead.
+- [Local component imports](https://flaviocopes.com/vue-import-component/)
+- It's easy to create components with conflicting namespaces - see Carousel.vue component name
+-
