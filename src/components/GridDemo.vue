@@ -7,6 +7,14 @@
       </li>
     </ul>
 
+    <div>
+      <a
+        href="https://bootstrap-vue.js.org/docs/components/layout/"
+        target="_blank"
+        >Bootstrap-Vue Grid Docs</a
+      >
+    </div>
+
     <b-container>
       <b-row class="bv-example-row">
         <b-col>1 of 3</b-col>
