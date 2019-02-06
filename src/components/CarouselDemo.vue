@@ -1,11 +1,8 @@
 <template>
   <div>
+    <Navigation />
+
     <h1>{{ msg }}</h1>
-    <ul>
-      <li>
-        <router-link to="/">Home</router-link>
-      </li>
-    </ul>
 
     <div>
       <a href="https://github.com/SSENSE/vue-carousel" target="_blank"
