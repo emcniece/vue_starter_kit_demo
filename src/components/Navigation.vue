@@ -14,6 +14,9 @@
       <li>
         <router-link to="/styled-components">Styled Components</router-link>
       </li>
+      <li>
+        <router-link to="/icon">Icons</router-link>
+      </li>
     </ul>
   </div>
 </template>

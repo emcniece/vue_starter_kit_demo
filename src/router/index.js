@@ -1,9 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
 import HelloWorld from "@/components/HelloWorld";
-import GridDemo from "@/components/GridDemo";
-import CarouselDemo from "@/components/CarouselDemo";
+import Grid from "@/components/Grid";
+import CarouselComponent from "@/components/Carousel";
 import StyledComponents from "@/components/StyledComponents";
+import Icon from "@/components/Icon";
 
 Vue.use(Router);
 
@@ -17,18 +18,23 @@ export default new Router({
     },
     {
       path: "/grid",
-      name: "GridDemo",
-      component: GridDemo
+      name: "Grid",
+      component: Grid
     },
     {
       path: "/carousel",
-      name: "CarouselDemo",
-      component: CarouselDemo
+      name: "Carousel",
+      component: CarouselComponent
     },
     {
       path: "/styled-components",
       name: "StyledComponents",
       component: StyledComponents
+    },
+    {
+      path: "/icon",
+      name: "Icon",
+      component: Icon
     }
   ]
 });

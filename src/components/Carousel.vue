@@ -78,7 +78,8 @@
 
 <script>
 export default {
-  name: "CarouselDemo",
+  // This is named as such to avoid collision with the existing <carousel />
+  name: "CarouselComponent",
   data() {
     return {
       msg: "Carousel Demo"
