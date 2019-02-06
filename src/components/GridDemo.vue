@@ -7,30 +7,25 @@
       </li>
     </ul>
 
-    <div class="row">
-      <div
-        class="col-xs-12
-              col-sm-8
-              col-md-6
-              col-lg-4"
-      >
-        <div class="box">col-xs-12 col-sm-8 col-md-6 col-lg-4</div>
-      </div>
-    </div>
+    <b-container>
+      <b-row class="bv-example-row">
+        <b-col>1 of 3</b-col>
+        <b-col>2 of 3</b-col>
+        <b-col>3 of 3</b-col>
+      </b-row>
 
-    <div class="row">
-      <div class="col-xs-2">
-        <div class="box">col-xs-2</div>
-      </div>
+      <b-row class="bv-example-row">
+        <b-col>col</b-col>
+        <b-col>col</b-col>
+        <b-col>col</b-col>
+        <b-col>col</b-col>
+      </b-row>
 
-      <div class="col-xs-2">
-        <div class="box">col-xs-2</div>
-      </div>
-
-      <div class="col-xs-2">
-        <div class="box">col-xs-2</div>
-      </div>
-    </div>
+      <b-row class="bv-example-row">
+        <b-col cols="8">col-8</b-col>
+        <b-col cols="4">col-4</b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -47,16 +42,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-.box {
+.bv-example-row > div {
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 0.5em 0;
 }
 </style>
