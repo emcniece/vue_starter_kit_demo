@@ -3,6 +3,7 @@ import Router from "vue-router";
 import HelloWorld from "@/components/HelloWorld";
 import GridDemo from "@/components/GridDemo";
 import CarouselDemo from "@/components/CarouselDemo";
+import StyledComponents from "@/components/StyledComponents";
 
 Vue.use(Router);
 
@@ -23,6 +24,11 @@ export default new Router({
       path: "/carousel",
       name: "CarouselDemo",
       component: CarouselDemo
+    },
+    {
+      path: "/styled-components",
+      name: "StyledComponents",
+      component: StyledComponents
     }
   ]
 });
