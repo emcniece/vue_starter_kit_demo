@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "GridDemo",
+  name: "Grid",
   data() {
     return {
       msg: "Grid Demo"
